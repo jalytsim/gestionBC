@@ -157,4 +157,5 @@ CREATE TABLE Transactions (
     montant DECIMAL(15, 2) NOT NULL,
     description VARCHAR(255),
     FOREIGN KEY (compte_id) REFERENCES Comptes(compte_id)
+
 );
